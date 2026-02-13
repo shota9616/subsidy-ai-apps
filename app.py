@@ -35,9 +35,9 @@ st.divider()
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### :clipboard: 補助金申請書類生成")
-    st.markdown("ヒアリングシートをアップロードするだけで、省力化投資補助金の申請書類11種 + 図表12枚を自動生成します。")
-    st.caption(":yellow_circle: 開発中")
+    st.markdown("### :clipboard: 香川県補助金申請書類生成")
+    st.markdown("ヒアリングシートをアップロードするだけで、香川県未来投資応援補助金の申請書類4種を自動生成します。")
+    st.caption(":green_circle: 稼働中")
 
 with col2:
     st.markdown("### :pencil: 記事下書き")
@@ -60,9 +60,9 @@ with status_col1:
     st.metric("登録アプリ", "3")
 
 with status_col2:
-    st.metric("稼働中", "0")
+    st.metric("稼働中", "1")
 
 with status_col3:
-    st.metric("開発中", "3")
+    st.metric("開発中", "2")
 
 footer()
